@@ -20,6 +20,17 @@ Minimal setup to debug jest tests written in TypeScript using VS Code
 1. `npx ts-jest config:init`
 1. `npm test`
     1. Verify tests are successful
+1. `Add debug script`
+    1. `"test:debug": "jest --runInBand"`
+1. Set breakpoint in test and debug!
+    1. Click "Debug" over package.scripts section
+
+        ![image](https://user-images.githubusercontent.com/2856501/136639023-8dde6495-d683-41de-93f3-a75af8f94e3a.png)
+
+    1. Select "test:debug"
+
+        ![image](https://user-images.githubusercontent.com/2856501/136639033-831f85a2-060c-458d-a363-e1f80ad9f546.png)
+
 
 
 ## References
