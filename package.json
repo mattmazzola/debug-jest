@@ -4,11 +4,6 @@
   "description": "Debug Jest with Typescript and VS Code",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./build/index.ts"
-    }
-  },
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
